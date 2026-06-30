@@ -21,10 +21,16 @@ The model is trained on a speech emotion recognition dataset and can predict the
 ```
 Emotion-Detection-Speech-/
 │
-├── models/                 # Trained model files
-├── HBD.wav                 # Sample audio
-├── demo_audio.wav          # Demo file
-├── male.wav                # Demo file
+├── Notebook/
+│   └── Emotion_Detection.ipynb
+│
+├── models/
+│   ├── model.keras
+│   └── ...
+│
+├── HBD.wav
+├── demo_audio.wav
+├── male.wav
 ├── README.md
 ```
 
